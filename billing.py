@@ -111,7 +111,6 @@ class RestaurantBillingSystem:
         total = self.calculate_total()
         self.total_amount_label.config(text=f"${total:.2f}")
 
-
 if _name_ == "_main_":
     root = tk.Tk()
     app = RestaurantBillingSystem(root)
